@@ -9,5 +9,6 @@ return require('packer').startup(function(use)
   use 'sainnhe/everforest'
   use 'sheerun/vim-polyglot'
   use 'nvim-treesitter/nvim-treesitter'
+  use { 'catppuccin/nvim', as = "catppuccin" }
 end)
 
